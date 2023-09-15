@@ -82,45 +82,18 @@ Cancion xxx = new Cancion("XXX. (feat. U2)", 254, "rap", kendrick_U2, "https://w
 Cancion fear = new Cancion("FEAR.", 460, "rap", kendrick, "https://www.youtube.com/watch?v=4MxohEQ66Lw");
 Cancion god = new Cancion("GOD.", 249, "rap", kendrick, "https://www.youtube.com/watch?v=a47dH0q3S3o");
 Cancion duckworth = new Cancion("DUCKWORTH.", 249, "rap", kendrick, "https://www.youtube.com/watch?v=eIu3b6Q04Gc");
- //MAC MILLER
- //WOS
- //DIAMANTE ELECTRICO
- //VIOLADORES DEL VERSO
- //BRUNO MARS 
- //ALVARO DIAZ
- //ELADIO CARRION
- //C. TANGANA 
- //
-lista.addAll( Arrays.asList(Discos_fuentes,Quien_va, Taxidermia,
-Relujo,
-Normal,
-A_Mijazz,
-Nada,
-Chango,
-Baldor,
-Aguanile,
-Quest,
-viejosCiegos,
-Amor_sin_Clausulas,
-Yemen,
-mazasYCatapultas,
-la_Primera,
-bicicletaDillom,
-rocketPowers,
-flashingLights,
-ghostTown,
-runaway,
-throughTheWire,
-noMorePartiesInLA,
-allDay) );
- 
- 
- 
- 
-    return lista;
-}
 
+        // Se agregan las canciones creadas a la lista
+        lista.addAll(Arrays.asList(
+            Discos_fuentes, Quien_va, Taxidermia, Relujo, Normal, A_Mijazz, Nada, Chango,
+            Baldor, Aguanile, Quest, viejosCiegos, Amor_sin_Clausulas, Yemen, mazasYCatapultas,
+            la_Primera, bicicletaDillom, rocketPowers, flashingLights, ghostTown, runaway,
+            throughTheWire, noMorePartiesInLA, allDay
+        ));
 
-//public static Canciones listaCanciones(Canciones can){
-           // Scanner teclado = new Scanner(System.in);
+        // Se devuelve la lista de canciones predefinidas
+        return lista;
+    }
+
+    // ... (se omite la definición de otros métodos, ya que están incompletos)
 }
